@@ -1,0 +1,42 @@
+.produto-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+  background: #ffffff;
+  border: 1px solid #eadfda;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(38, 28, 24, 0.12);
+}
+
+.produto-card__imagem {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  padding: 18px;
+  background: #f6efec;
+}
+
+.produto-card__conteudo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+}
+
+.produto-card__conteudo h2 {
+  color: #2f1d1a;
+  font-size: 1.15rem;
+}
+
+.produto-card__conteudo p {
+  flex: 1;
+  color: #64524d;
+  line-height: 1.5;
+}
+
+.produto-card__conteudo strong {
+  color: #b42318;
+  font-size: 1.2rem;
+}
